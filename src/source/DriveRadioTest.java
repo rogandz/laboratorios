@@ -6,9 +6,11 @@ import org.junit.Test;
 
 public class DriveRadioTest {
 
-	Radio radio = new DriveRadio();
+	DriveRadio radio = new DriveRadio();
 	@Test
 	public void testON_OFF() {
+		radio.AM_FM();
+		assertEquals(radio.getEmisora(), true);
 	}
 
 	@Test

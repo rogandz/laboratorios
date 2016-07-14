@@ -2,12 +2,12 @@ package source;
 
 public class DriveRadio implements Radio{
 	
-	protected boolean encendido = false;
-	protected boolean tipoEmisora = false;
-	protected double vectorAM[] = new double[11];
-	protected double vectorFM[] = new double[11];
-	protected boolean guardarSeleccionar = false;
-	protected double emisora;
+	public boolean encendido = false;
+	public boolean tipoEmisora = false;
+	public double vectorAM[] = new double[11];
+	public double vectorFM[] = new double[11];
+	public boolean guardarSeleccionar = false;
+	public double emisora;
 	
 	@Override
 	public void ON_OFF() {

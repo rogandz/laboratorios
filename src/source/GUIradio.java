@@ -181,6 +181,7 @@ public class GUIradio extends DriveRadio{
 				Guardar_Seleccion();
 				if (guardarSeleccionar == true){
 					lblOpcion.setText("SELECCIONANDO");
+
 				}
 				else {
 					lblOpcion.setText("GUARDANDO");
