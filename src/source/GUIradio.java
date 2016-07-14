@@ -6,7 +6,7 @@
  * Este programa es un simulador de radio, el cual tiene distintas funciones que se pueden ir cambiando 
  */
 
-package source;
+
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
