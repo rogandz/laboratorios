@@ -1,3 +1,11 @@
+/*
+ * ALGORITMOS Y ESTRUCTURA DE DATOS, LYNETTE GARCIA
+ * 
+ * INTEGRANTES: Paulina Cano 15053, Andres Giron 15174, Brandon Hernandez 15326
+ * 
+ * Este programa es un simulador de radio, el cual tiene distintas funciones que se pueden ir cambiando 
+ */
+
 package source;
 
 import java.awt.BorderLayout;
